@@ -1,0 +1,19 @@
+h1 Lista Articoli per Fornitore
+|<div id="accordion">
+- @vendors.each do |vendor|
+  h3 #{vendor[:name]}
+  div
+    table.vendor_dt
+      thead
+        tr
+          th Descrizione Articolo
+          th Costo
+      tbody
+        - @ds.select(:description, :costo).from_self.where(:name => vendor[:name]).each do |row|
+          tr
+            td #{row[:description]}
+            td &euro; #{sprintf("%0.2f",row[:costo].to_f)}
+            |</div>
+
+
+

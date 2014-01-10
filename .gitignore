@@ -1,0 +1,13 @@
+/.sass-cache
+/csv
+/download
+/dumps
+/ebooks
+/gnucash_queries
+/.idea
+
+*.sql
+*.log
+*.csv
+*.lock
+*.scssc

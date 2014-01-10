@@ -1,0 +1,1258 @@
+ ~ (0.001814) SET sql_auto_is_null = 0
+ ~ (0.002393) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002627) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.045699) SELECT `guid` FROM `vendors`
+ ~ (0.006141) SELECT `guid`, `date_opened`, `date_posted`, `active`, `currency`, `owner_type`, `owner_guid`, `terms`, `post_txn`, `post_lot`, `post_acc`, `billto_type`, `billto_guid`, `charge_amt_num`, `charge_amt_denom` FROM `invoices` WHERE `owner_guid` IN ('0160bbb0b29ff7e83ede0df030fe59ff', '0fb233465dc6cbc6b47c8216528bdab2', '1b550121638b47a615e156e2aeef0b5b', '2381114ea9abfe006de6478f72b3a022', '2c6ee8cd5f451d88fffa663800ccc555', '300fcb0ac54a9f40f168d9cf68747c90', '37c58541427472b90b9e378f984b7683', '44b6fb24e862cceaeced06a2fcf45d22', '4cfd02a6331b721315b0454fd73281bc', '563db646a6e49e5d0320f6d49dc77447', '5a861a1b380a7a78c642012ad02fc576', '6e573707f08f720128948725c5887963', '7420166959c265c2c0fe40abd2b94b24', '76e2bb41db2435229f146e4809848f64', '8e5fdd303b257f8b0f54d8f84ccb1bfe', '9733ae8927b90fc7b03509b5e8098988', 'ad28ca84638babf389d9260da1a29057', 'af0fbec0f8cc9aa82c25cf1c618aaa7a', 'b531cb631ae2c05db41b879420e5507f', 'bbf6bc3dd5f2d7fc6ac2849b0730f63e', 'df01af46db436fa41a74caf5217c6a88', 'e2a6c93702279a19a742dd05ad16be68', 'e362656183c01e6c9fa31cd28503e936', 'e8265f39f27be441c3787928ee8b1cbd', 'ea281e355c8898f3c3ed00de488f347e', 'fcf210b93c8e92674879092a57e19ea8') ORDER BY `guid`
+ ~ (0.048336) SELECT `guid` FROM `vendors`
+ ~ (0.005124) SELECT `guid`, `date_opened`, `date_posted`, `active`, `currency`, `owner_type`, `owner_guid`, `terms`, `post_txn`, `post_lot`, `post_acc`, `billto_type`, `billto_guid`, `charge_amt_num`, `charge_amt_denom` FROM `invoices` WHERE `owner_guid` IN ('0160bbb0b29ff7e83ede0df030fe59ff', '0fb233465dc6cbc6b47c8216528bdab2', '1b550121638b47a615e156e2aeef0b5b', '2381114ea9abfe006de6478f72b3a022', '2c6ee8cd5f451d88fffa663800ccc555', '300fcb0ac54a9f40f168d9cf68747c90', '37c58541427472b90b9e378f984b7683', '44b6fb24e862cceaeced06a2fcf45d22', '4cfd02a6331b721315b0454fd73281bc', '563db646a6e49e5d0320f6d49dc77447', '5a861a1b380a7a78c642012ad02fc576', '6e573707f08f720128948725c5887963', '7420166959c265c2c0fe40abd2b94b24', '76e2bb41db2435229f146e4809848f64', '8e5fdd303b257f8b0f54d8f84ccb1bfe', '9733ae8927b90fc7b03509b5e8098988', 'ad28ca84638babf389d9260da1a29057', 'af0fbec0f8cc9aa82c25cf1c618aaa7a', 'b531cb631ae2c05db41b879420e5507f', 'bbf6bc3dd5f2d7fc6ac2849b0730f63e', 'df01af46db436fa41a74caf5217c6a88', 'e2a6c93702279a19a742dd05ad16be68', 'e362656183c01e6c9fa31cd28503e936', 'e8265f39f27be441c3787928ee8b1cbd', 'ea281e355c8898f3c3ed00de488f347e', 'fcf210b93c8e92674879092a57e19ea8') ORDER BY `guid`
+ ~ (0.001747) SET sql_auto_is_null = 0
+ ~ (0.001844) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002127) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` WHERE `name` LIKE 'SIMEONI%' ORDER BY `guid` LIMIT 1
+ ~ (0.047882) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` WHERE `name` LIKE 'SIMEONI%' ORDER BY `guid` LIMIT 1
+ ~ (0.002156) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid` LIMIT 1
+ ~ (0.002223) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid` LIMIT 1
+ ~ (0.004308) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` WHERE `guid` = '0160bbb0b29ff7e83ede0df030fe59ff' ORDER BY `guid`
+ ~ (0.002139) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid` LIMIT 1
+ ~ (0.023579) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` WHERE `guid` = '4cfd02a6331b721315b0454fd73281bc' LIMIT 1
+ ~ (0.002080) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` WHERE `name` LIKE 'SIMEONI%' ORDER BY `guid` LIMIT 1
+ ~ (0.017773) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` WHERE `guid` = '4cfd02a6331b721315b0454fd73281bc' LIMIT 1
+ ~ (0.005211) SELECT `guid`, `date_opened`, `date_posted`, `active`, `currency`, `owner_type`, `owner_guid`, `terms`, `post_txn`, `post_lot`, `post_acc`, `billto_type`, `billto_guid`, `charge_amt_num`, `charge_amt_denom` FROM `invoices` WHERE `owner_guid` = '4cfd02a6331b721315b0454fd73281bc' ORDER BY `guid`
+ ~ (0.002104) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` WHERE `guid` = '4cfd02a6331b721315b0454fd73281bc' LIMIT 1
+ ~ (0.004068) SELECT COUNT(*) FROM `invoices` WHERE `owner_guid` = '4cfd02a6331b721315b0454fd73281bc'
+ ~ (0.020498) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` WHERE `guid` = '4cfd02a6331b721315b0454fd73281bc' LIMIT 1
+ ~ (0.003822) SELECT `guid`, `date_opened`, `date_posted`, `active`, `currency`, `owner_type`, `owner_guid`, `terms`, `post_txn`, `post_lot`, `post_acc`, `billto_type`, `billto_guid`, `charge_amt_num`, `charge_amt_denom` FROM `invoices` WHERE `owner_guid` = '4cfd02a6331b721315b0454fd73281bc' ORDER BY `guid`
+ ~ (0.022875) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` WHERE `guid` = '4cfd02a6331b721315b0454fd73281bc' LIMIT 1
+ ~ (0.004073) SELECT `guid`, `date_opened`, `date_posted`, `active`, `currency`, `owner_type`, `owner_guid`, `terms`, `post_txn`, `post_lot`, `post_acc`, `billto_type`, `billto_guid`, `charge_amt_num`, `charge_amt_denom` FROM `invoices` WHERE `owner_guid` = '4cfd02a6331b721315b0454fd73281bc' ORDER BY `guid`
+ ~ (0.002047) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` WHERE `guid` = '4cfd02a6331b721315b0454fd73281bc' LIMIT 1
+ ~ (0.002190) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` WHERE `guid` = '4cfd02a6331b721315b0454fd73281bc' LIMIT 1
+ ~ (0.047857) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid` LIMIT 1
+ ~ (0.045978) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid` LIMIT 1
+ ~ (0.023307) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid` LIMIT 1
+ ~ (0.001954) SET sql_auto_is_null = 0
+ ~ (0.002816) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002020) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid` LIMIT 1
+ ~ (0.048938) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` WHERE `guid` = '{#<DataMapper::Query::Operator @target=:name @operator=:like>=>"SIMEONI%"}' LIMIT 1
+ ~ (0.025143) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` WHERE `name` LIKE 'SIMEONI%' ORDER BY `guid` LIMIT 1
+ ~ (0.046392) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` WHERE `guid` = '4cfd02a6331b721315b0454fd73281bc' LIMIT 1
+ ~ (0.030651) SELECT `guid`, `date_opened`, `date_posted`, `active`, `currency`, `owner_type`, `owner_guid`, `terms`, `post_txn`, `post_lot`, `post_acc`, `billto_type`, `billto_guid`, `charge_amt_num`, `charge_amt_denom` FROM `invoices` WHERE `owner_guid` = '4cfd02a6331b721315b0454fd73281bc' ORDER BY `guid`
+ ~ (0.001857) SELECT COUNT(*) FROM `invoices` WHERE `owner_guid` = '4cfd02a6331b721315b0454fd73281bc'
+ ~ (0.001724) SET sql_auto_is_null = 0
+ ~ (0.001998) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.183205) SELECT `entries`.`guid`, `entries`.`date`, `entries`.`date_entered`, `entries`.`quantity_num`, `entries`.`quantity_denom`, `entries`.`i_acct`, `entries`.`i_price_num`, `entries`.`i_price_denom`, `entries`.`i_discount_num`, `entries`.`i_discount_denom`, `entries`.`invoice`, `entries`.`i_taxable`, `entries`.`i_taxincluded`, `entries`.`i_taxtable`, `entries`.`b_acct`, `entries`.`b_price_num`, `entries`.`b_price_denom`, `entries`.`bill`, `entries`.`b_taxable`, `entries`.`b_taxincluded`, `entries`.`b_taxtable`, `entries`.`b_paytype`, `entries`.`billable`, `entries`.`billto_type`, `entries`.`billto_guid`, `entries`.`order_guid` FROM `entries` INNER JOIN `invoices` ON `entries`.`bill` = `invoices`.`guid` INNER JOIN `vendors` ON `invoices`.`owner_guid` = `vendors`.`guid` WHERE `invoices`.`owner_guid` = '4cfd02a6331b721315b0454fd73281bc' GROUP BY `entries`.`guid`, `entries`.`date`, `entries`.`date_entered`, `entries`.`quantity_num`, `entries`.`quantity_denom`, `entries`.`i_acct`, `entries`.`i_price_num`, `entries`.`i_price_denom`, `entries`.`i_discount_num`, `entries`.`i_discount_denom`, `entries`.`invoice`, `entries`.`i_taxable`, `entries`.`i_taxincluded`, `entries`.`i_taxtable`, `entries`.`b_acct`, `entries`.`b_price_num`, `entries`.`b_price_denom`, `entries`.`bill`, `entries`.`b_taxable`, `entries`.`b_taxincluded`, `entries`.`b_taxtable`, `entries`.`b_paytype`, `entries`.`billable`, `entries`.`billto_type`, `entries`.`billto_guid`, `entries`.`order_guid` ORDER BY `entries`.`guid`
+ ~ (0.001781) SET sql_auto_is_null = 0
+ ~ (0.001954) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.075962) SELECT COUNT(*) FROM `entries` INNER JOIN `invoices` ON `entries`.`bill` = `invoices`.`guid` INNER JOIN `vendors` ON `invoices`.`owner_guid` = `vendors`.`guid` WHERE `invoices`.`owner_guid` = '4cfd02a6331b721315b0454fd73281bc'
+ ~ (0.001790) SET sql_auto_is_null = 0
+ ~ (0.001906) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002742) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003379) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001761) SET sql_auto_is_null = 0
+ ~ (0.001856) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002681) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003962) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003037) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003297) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002720) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002871) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002755) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002852) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003255) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002870) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002235) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003231) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002921) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003396) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002782) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002870) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002653) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002836) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002677) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002861) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.010358) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.005038) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001800) SET sql_auto_is_null = 0
+ ~ (0.002220) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.004062) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.043508) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003003) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.025906) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003008) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.001852) SET sql_auto_is_null = 0
+ ~ (0.001967) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.001989) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid` LIMIT 1
+ ~ (0.113979) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid` LIMIT 1
+ ~ (0.139318) SELECT `entries`.`guid`, `entries`.`date`, `entries`.`date_entered`, `entries`.`quantity_num`, `entries`.`quantity_denom`, `entries`.`i_acct`, `entries`.`i_price_num`, `entries`.`i_price_denom`, `entries`.`i_discount_num`, `entries`.`i_discount_denom`, `entries`.`invoice`, `entries`.`i_taxable`, `entries`.`i_taxincluded`, `entries`.`i_taxtable`, `entries`.`b_acct`, `entries`.`b_price_num`, `entries`.`b_price_denom`, `entries`.`bill`, `entries`.`b_taxable`, `entries`.`b_taxincluded`, `entries`.`b_taxtable`, `entries`.`b_paytype`, `entries`.`billable`, `entries`.`billto_type`, `entries`.`billto_guid`, `entries`.`order_guid` FROM `entries` INNER JOIN `invoices` ON `entries`.`bill` = `invoices`.`guid` INNER JOIN `vendors` ON `invoices`.`owner_guid` = `vendors`.`guid` WHERE `invoices`.`owner_guid` = '0160bbb0b29ff7e83ede0df030fe59ff' GROUP BY `entries`.`guid`, `entries`.`date`, `entries`.`date_entered`, `entries`.`quantity_num`, `entries`.`quantity_denom`, `entries`.`i_acct`, `entries`.`i_price_num`, `entries`.`i_price_denom`, `entries`.`i_discount_num`, `entries`.`i_discount_denom`, `entries`.`invoice`, `entries`.`i_taxable`, `entries`.`i_taxincluded`, `entries`.`i_taxtable`, `entries`.`b_acct`, `entries`.`b_price_num`, `entries`.`b_price_denom`, `entries`.`bill`, `entries`.`b_taxable`, `entries`.`b_taxincluded`, `entries`.`b_taxtable`, `entries`.`b_paytype`, `entries`.`billable`, `entries`.`billto_type`, `entries`.`billto_guid`, `entries`.`order_guid` ORDER BY `entries`.`guid`
+ ~ (0.118035) SELECT `entries`.`date` FROM `entries` INNER JOIN `invoices` ON `entries`.`bill` = `invoices`.`guid` INNER JOIN `vendors` ON `invoices`.`owner_guid` = `vendors`.`guid` WHERE `invoices`.`owner_guid` = '0160bbb0b29ff7e83ede0df030fe59ff' GROUP BY `entries`.`date` ORDER BY `entries`.`guid`
+ ~ (0.043119) SELECT `entries`.`date` FROM `entries` INNER JOIN `invoices` ON `entries`.`bill` = `invoices`.`guid` INNER JOIN `vendors` ON `invoices`.`owner_guid` = `vendors`.`guid` WHERE `invoices`.`owner_guid` = '0160bbb0b29ff7e83ede0df030fe59ff' GROUP BY `entries`.`date` ORDER BY `entries`.`guid`
+ ~ (0.002030) SELECT `entries`.`date` FROM `entries` INNER JOIN `invoices` ON `entries`.`bill` = `invoices`.`guid` INNER JOIN `vendors` ON `invoices`.`owner_guid` = `vendors`.`guid` WHERE `invoices`.`owner_guid` = '0160bbb0b29ff7e83ede0df030fe59ff' GROUP BY `entries`.`date` ORDER BY `entries`.`guid`
+ ~ (0.017190) SELECT `entries`.`date` FROM `entries` INNER JOIN `invoices` ON `entries`.`bill` = `invoices`.`guid` INNER JOIN `vendors` ON `invoices`.`owner_guid` = `vendors`.`guid` WHERE `invoices`.`owner_guid` = '0160bbb0b29ff7e83ede0df030fe59ff' GROUP BY `entries`.`date` ORDER BY `entries`.`guid`
+ ~ (0.001993) SELECT `entries`.`date` FROM `entries` INNER JOIN `invoices` ON `entries`.`bill` = `invoices`.`guid` INNER JOIN `vendors` ON `invoices`.`owner_guid` = `vendors`.`guid` WHERE `invoices`.`owner_guid` = '0160bbb0b29ff7e83ede0df030fe59ff' GROUP BY `entries`.`date` ORDER BY `entries`.`guid`
+ ~ (0.029177) SELECT `entries`.`date` FROM `entries` INNER JOIN `invoices` ON `entries`.`bill` = `invoices`.`guid` INNER JOIN `vendors` ON `invoices`.`owner_guid` = `vendors`.`guid` WHERE `invoices`.`owner_guid` = '0160bbb0b29ff7e83ede0df030fe59ff' GROUP BY `entries`.`date` ORDER BY `entries`.`guid`
+ ~ (0.047262) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` WHERE `name` LIKE 'SIMEONI%' ORDER BY `guid` LIMIT 1
+ ~ (0.125155) SELECT `entries`.`date` FROM `entries` INNER JOIN `invoices` ON `entries`.`bill` = `invoices`.`guid` INNER JOIN `vendors` ON `invoices`.`owner_guid` = `vendors`.`guid` WHERE `invoices`.`owner_guid` = '4cfd02a6331b721315b0454fd73281bc' GROUP BY `entries`.`date` ORDER BY `entries`.`guid`
+ ~ (0.041993) SELECT `entries`.`date` FROM `entries` INNER JOIN `invoices` ON `entries`.`bill` = `invoices`.`guid` INNER JOIN `vendors` ON `invoices`.`owner_guid` = `vendors`.`guid` WHERE `invoices`.`owner_guid` = '4cfd02a6331b721315b0454fd73281bc' GROUP BY `entries`.`date` ORDER BY `entries`.`guid`
+ ~ (0.002098) SET sql_auto_is_null = 0
+ ~ (0.002177) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002862) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002994) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003747) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003086) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002172) SET sql_auto_is_null = 0
+ ~ (0.002650) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.004103) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003660) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002492) SET sql_auto_is_null = 0
+ ~ (0.002014) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003346) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003584) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003123) SET sql_auto_is_null = 0
+ ~ (0.002152) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003457) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002959) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.004049) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003028) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003239) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003764) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.010489) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003464) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002145) SET sql_auto_is_null = 0
+ ~ (0.002217) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002640) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.004170) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001729) SET sql_auto_is_null = 0
+ ~ (0.002301) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003053) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003717) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002406) SET sql_auto_is_null = 0
+ ~ (0.001885) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002568) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002409) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003683) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.004378) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001882) SET sql_auto_is_null = 0
+ ~ (0.001937) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003134) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002872) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003584) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002840) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003363) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002769) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.004079) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003000) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003622) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003423) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003945) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002396) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003721) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003329) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003651) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002986) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001737) SET sql_auto_is_null = 0
+ ~ (0.001879) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002896) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003641) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001907) SET sql_auto_is_null = 0
+ ~ (0.002015) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003103) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002980) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001785) SET sql_auto_is_null = 0
+ ~ (0.001911) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002983) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003021) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002093) SET sql_auto_is_null = 0
+ ~ (0.004160) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003225) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003263) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.235341) SET sql_auto_is_null = 0
+ ~ (0.103563) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.118905) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.112895) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.006326) SET sql_auto_is_null = 0
+ ~ (0.002797) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003298) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003773) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.154870) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.004779) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003564) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003547) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.056536) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003401) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.190265) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.072432) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.004347) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.004449) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003111) SET sql_auto_is_null = 0
+ ~ (0.006818) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.023842) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.018203) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.030122) SET sql_auto_is_null = 0
+ ~ (0.041465) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.009536) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.033182) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.183258) SET sql_auto_is_null = 0
+ ~ (0.180775) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.192893) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (1.375172) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (1.103188) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (12.663442) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.380992) SET sql_auto_is_null = 0
+ ~ (0.178601) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (3.488412) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.132467) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (30.676980) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003019) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002146) SET sql_auto_is_null = 0
+ ~ (0.001973) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003283) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003283) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001865) SET sql_auto_is_null = 0
+ ~ (0.002605) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003414) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.004074) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.532608) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (1.475512) SET sql_auto_is_null = 0
+ ~ (21.109398) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (1.229179) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.179695) SET sql_auto_is_null = 0
+ ~ (0.186668) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.364770) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (1.159126) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.178304) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (43.253181) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.066073) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.010116) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001932) SET sql_auto_is_null = 0
+ ~ (0.002306) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002725) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002937) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001779) SET sql_auto_is_null = 0
+ ~ (0.002899) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002702) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.019957) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001794) SET sql_auto_is_null = 0
+ ~ (0.001902) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.005008) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.007099) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002017) SET sql_auto_is_null = 0
+ ~ (0.007228) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003859) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002547) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001810) SET sql_auto_is_null = 0
+ ~ (0.001924) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002950) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.008110) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003143) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002988) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003154) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002931) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002750) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002876) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003241) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002865) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002743) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003530) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002664) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003848) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002605) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002935) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003164) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002893) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002719) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002825) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002688) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002715) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001904) SET sql_auto_is_null = 0
+ ~ (0.001861) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002556) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002841) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.004969) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003002) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003075) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002844) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003314) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002937) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.017797) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002835) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.012579) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002667) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.004138) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003542) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.043207) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002867) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002533) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002296) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.005414) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002664) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.004059) SET sql_auto_is_null = 0
+ ~ (0.001905) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002745) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002882) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003229) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003195) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002624) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002666) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001741) SET sql_auto_is_null = 0
+ ~ (0.001836) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002627) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002649) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001865) SET sql_auto_is_null = 0
+ ~ (0.001898) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002511) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003064) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003575) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003207) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001743) SET sql_auto_is_null = 0
+ ~ (0.001901) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002690) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003168) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003401) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002868) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001783) SET sql_auto_is_null = 0
+ ~ (0.001851) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003090) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003219) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003099) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002720) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002793) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003090) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003301) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002636) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003699) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002919) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002555) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003189) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002714) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003746) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002346) SET sql_auto_is_null = 0
+ ~ (0.002141) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003120) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002674) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002154) SET sql_auto_is_null = 0
+ ~ (0.002078) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002596) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003245) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.070272) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003765) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003395) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003419) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002122) SET sql_auto_is_null = 0
+ ~ (0.002191) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003281) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.023730) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.016293) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003223) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002565) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002758) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.012589) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002789) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003564) SET sql_auto_is_null = 0
+ ~ (0.001974) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002566) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.004416) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002817) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002044) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.004605) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002636) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001772) SET sql_auto_is_null = 0
+ ~ (0.001851) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002539) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002746) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.012553) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003190) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003245) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002856) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.018920) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002858) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002715) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002903) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002857) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002839) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001852) SET sql_auto_is_null = 0
+ ~ (0.001933) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003322) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002853) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003407) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002850) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003364) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002875) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002764) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002905) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.004669) SET sql_auto_is_null = 0
+ ~ (0.001875) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003055) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003297) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002752) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003259) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002783) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002757) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002522) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002657) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003598) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002662) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003418) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002706) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002768) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002810) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002689) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002860) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003049) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002848) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003258) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002858) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.004135) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002843) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002748) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003294) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002855) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.009029) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001874) SET sql_auto_is_null = 0
+ ~ (0.001898) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002686) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.004666) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003248) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.003375) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001788) SET sql_auto_is_null = 0
+ ~ (0.002033) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.013308) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.009098) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.005146) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.003868) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.006080) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.004932) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.002073) SET sql_auto_is_null = 0
+ ~ (0.005236) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.005067) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.005748) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.005270) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.004865) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.017877) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.008109) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.001895) SET sql_auto_is_null = 0
+ ~ (0.001913) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003551) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.005741) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.001870) SET sql_auto_is_null = 0
+ ~ (0.001902) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.006174) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.003939) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.002361) SET sql_auto_is_null = 0
+ ~ (0.001955) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.004670) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.003463) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.001830) SET sql_auto_is_null = 0
+ ~ (0.001964) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.005779) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.003855) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.006039) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.002454) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.002049) SET sql_auto_is_null = 0
+ ~ (0.002190) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.005735) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.003496) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.014314) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.006297) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.005800) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.003855) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.004182) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.002973) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.069116) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.004853) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.030417) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `guid`
+ ~ (0.002357) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `guid`
+ ~ (0.001797) SET sql_auto_is_null = 0
+ ~ (0.003365) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.050306) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.043894) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`
+ ~ (0.066755) SET sql_auto_is_null = 0
+ ~ (0.008909) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.249716) SELECT `description` FROM `entries` GROUP BY `description` ORDER BY `description`
+ ~ (0.051425) SELECT COUNT(*) FROM `entries`
+ ~ (0.048639) SET sql_auto_is_null = 0
+ ~ (0.013244) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.048477) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.067113) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.161997) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.115218) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`
+ ~ (0.002043) SET sql_auto_is_null = 0
+ ~ (0.002038) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.006041) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.005331) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.054752) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.047643) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`
+ ~ (0.002070) SET sql_auto_is_null = 0
+ ~ (0.002437) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.004563) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.003799) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`
+ ~ (0.002494) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002652) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001925) SET sql_auto_is_null = 0
+ ~ (0.002201) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.004040) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.004448) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`
+ ~ (0.016237) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002703) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002262) SET sql_auto_is_null = 0
+ ~ (0.002325) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.004341) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.003653) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`
+ ~ (0.002125) SET sql_auto_is_null = 0
+ ~ (0.001989) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003711) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.003884) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`
+ ~ (0.002019) SET sql_auto_is_null = 0
+ ~ (0.004422) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003604) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002705) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.019375) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.003993) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`
+ ~ (0.002008) SET sql_auto_is_null = 0
+ ~ (0.002066) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (2.298299) select * FROM (
+      select
+	     entries.description as Descrizione_Articolo,
+	     (entries.b_price_num / entries.b_price_denom) AS Prezzo_Unitario
+from invoices JOIN vendors
+		ON invoices.owner_guid = vendors.guid
+		LEFT JOIN entries
+		on entries.bill = invoices.guid
+ group by Descrizione_articolo) As Lista_Articoli
+order by Lista_Articoli.Descrizione_Articolo ASC
+ ~ (0.002585) SET sql_auto_is_null = 0
+ ~ (0.002317) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.004137) select * FROM (
+      select
+	     entries.description as Descrizione_Articolo,
+	     (entries.b_price_num / entries.b_price_denom) AS Prezzo_Unitario
+from invoices JOIN vendors
+		ON invoices.owner_guid = vendors.guid
+		LEFT JOIN entries
+		on entries.bill = invoices.guid
+ group by Descrizione_articolo) As Lista_Articoli
+order by Lista_Articoli.Descrizione_Articolo ASC
+ ~ (0.002105) SET sql_auto_is_null = 0
+ ~ (0.002023) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.004071) select * FROM (
+      select
+	     entries.description as Descrizione_Articolo,
+	     (entries.b_price_num / entries.b_price_denom) AS Prezzo_Unitario
+from invoices JOIN vendors
+		ON invoices.owner_guid = vendors.guid
+		LEFT JOIN entries
+		on entries.bill = invoices.guid
+ group by Descrizione_articolo) As Lista_Articoli
+order by Lista_Articoli.Descrizione_Articolo ASC
+ ~ (0.001891) SET sql_auto_is_null = 0
+ ~ (0.001921) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003641) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.003539) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`
+ ~ (0.003767) SET sql_auto_is_null = 0
+ ~ (0.001888) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003864) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.003786) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`
+ ~ (0.014141) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.004797) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`
+ ~ (0.002359) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002366) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.003687) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.003595) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`
+ ~ (0.019195) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.003602) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`
+ ~ (0.052512) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.003619) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`
+ ~ (0.001792) SET sql_auto_is_null = 0
+ ~ (0.002055) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc as Descrizione, (b_price_num/b_price_denom) as Costo from (select * from in' at line 1 (code: 1064, sql state: 42000, query: select name as Fornitore, desc as Descrizione, (b_price_num/b_price_denom) as Costo from (select * from invoices JOIN vendors ON invoices.owner_guid=vendors.guid LEFT JOIN entries on entries.bill = invoices.guid ), uri: mysql:ampi@192.168.0.31/kcm?scheme=mysql&user=ampi&password=ampi&host=192.168.0.31&port=&path=/kcm&query=&fragment=&adapter=mysql)
+ ~ (0.001825) SET sql_auto_is_null = 0
+ ~ (0.001903) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.083054) select * from invoices JOIN vendors ON invoices.owner_guid=vendors.guid LEFT JOIN entries on entries.bill = invoices.guid 
+ ~ (0.001758) SET sql_auto_is_null = 0
+ ~ (0.002122) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc as Descrizione, (b_price_num/b_price_denom) as Costofrom invoices JOIN vend' at line 1 (code: 1064, sql state: 42000, query: select name as Fornitore, desc as Descrizione, (b_price_num/b_price_denom) as Costofrom invoices JOIN vendors ON invoices.owner_guid=vendors.guid LEFT JOIN entries on entries.bill = invoices.guid , uri: mysql:ampi@192.168.0.31/kcm?scheme=mysql&user=ampi&password=ampi&host=192.168.0.31&port=&path=/kcm&query=&fragment=&adapter=mysql)
+ ~ (0.001794) SET sql_auto_is_null = 0
+ ~ (0.001904) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc as Descrizione, (b_price_num / b_price_denom) as Costo from invoices JOIN v' at line 1 (code: 1064, sql state: 42000, query: select name as Fornitore, desc as Descrizione, (b_price_num / b_price_denom) as Costo from invoices JOIN vendors ON invoices.owner_guid=vendors.guid LEFT JOIN entries on entries.bill = invoices.guid , uri: mysql:ampi@192.168.0.31/kcm?scheme=mysql&user=ampi&password=ampi&host=192.168.0.31&port=&path=/kcm&query=&fragment=&adapter=mysql)
+ ~ (0.001780) SET sql_auto_is_null = 0
+ ~ (0.001989) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JT' at line 1 (code: 1064, sql state: 42000, query: select * from (invoices JOIN vendors ON invoices.owner_guid=vendors.guid LEFT JOIN entries on entries.bill = invoices.guid ) As JT, uri: mysql:ampi@192.168.0.31/kcm?scheme=mysql&user=ampi&password=ampi&host=192.168.0.31&port=&path=/kcm&query=&fragment=&adapter=mysql)
+ ~ (0.001789) SET sql_auto_is_null = 0
+ ~ (0.001951) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.083957) select * from (invoices JOIN vendors ON invoices.owner_guid=vendors.guid LEFT JOIN entries on entries.bill = invoices.guid)
+ ~ (0.001796) SET sql_auto_is_null = 0
+ ~ (0.001855) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jt' at line 1 (code: 1064, sql state: 42000, query: select * from (invoices JOIN vendors ON invoices.owner_guid=vendors.guid LEFT JOIN entries on entries.bill = invoices.guid) as jt, uri: mysql:ampi@192.168.0.31/kcm?scheme=mysql&user=ampi&password=ampi&host=192.168.0.31&port=&path=/kcm&query=&fragment=&adapter=mysql)
+ ~ (0.001904) SET sql_auto_is_null = 0
+ ~ (0.001993) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.005286) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.004760) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001809) SET sql_auto_is_null = 0
+ ~ (0.001914) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002472) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002350) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002418) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002214) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002349) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002366) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001819) SET sql_auto_is_null = 0
+ ~ (0.001909) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002307) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002220) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001800) SET sql_auto_is_null = 0
+ ~ (0.001979) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002485) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002209) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.011634) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002337) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001791) SET sql_auto_is_null = 0
+ ~ (0.001905) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002276) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002334) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001790) SET sql_auto_is_null = 0
+ ~ (0.001865) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002216) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002189) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002395) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002389) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001804) SET sql_auto_is_null = 0
+ ~ (0.001797) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002251) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002683) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.002700) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002316) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001764) SET sql_auto_is_null = 0
+ ~ (0.001902) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002595) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002202) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ Table 'kcm.inventory_data' doesn't exist (code: 1146, sql state: 42S02, query: SELECT `costo`, `name` FROM `inventory_data` WHERE `name` = '#{vendor.name}', uri: mysql:ampi@192.168.0.31/kcm?scheme=mysql&user=ampi&password=ampi&host=192.168.0.31&port=&path=/kcm&query=&fragment=&adapter=mysql)
+ ~ (0.001920) SET sql_auto_is_null = 0
+ ~ (0.001972) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002385) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002322) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ Table 'kcm.inventory_data' doesn't exist (code: 1146, sql state: 42S02, query: SELECT `costo`, `name` FROM `inventory_data` WHERE `name` = '#{vendor.name}', uri: mysql:ampi@192.168.0.31/kcm?scheme=mysql&user=ampi&password=ampi&host=192.168.0.31&port=&path=/kcm&query=&fragment=&adapter=mysql)
+ ~ (0.012426) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002368) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ Table 'kcm.inventory_data' doesn't exist (code: 1146, sql state: 42S02, query: SELECT `costo`, `name` FROM `inventory_data` WHERE `name` = '#{vendor.name}', uri: mysql:ampi@192.168.0.31/kcm?scheme=mysql&user=ampi&password=ampi&host=192.168.0.31&port=&path=/kcm&query=&fragment=&adapter=mysql)
+ ~ (0.001785) SET sql_auto_is_null = 0
+ ~ (0.001750) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002313) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002246) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ Table 'kcm.items' doesn't exist (code: 1146, sql state: 42S02, query: SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}', uri: mysql:ampi@192.168.0.31/kcm?scheme=mysql&user=ampi&password=ampi&host=192.168.0.31&port=&path=/kcm&query=&fragment=&adapter=mysql)
+ ~ (0.001752) SET sql_auto_is_null = 0
+ ~ (0.002023) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002431) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002188) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (2.358669) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001676) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.002305) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001657) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001712) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001676) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001685) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001661) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001679) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001683) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001781) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001792) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001650) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001702) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001730) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001639) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001648) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001627) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001621) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001658) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001695) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001869) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001879) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001638) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001639) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001651) SELECT `costo`, `name` FROM `items` WHERE `name` = '#{vendor.name}'
+ ~ (0.001836) SET sql_auto_is_null = 0
+ ~ (0.002023) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002333) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002468) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (2.370591) SELECT `costo`, `name` FROM `items` WHERE `name` = 'SORGENIA S.P.A'
+ ~ (2.309503) SELECT `description` FROM `items` WHERE `name` = 'SORGENIA S.P.A'
+ ~ (2.274276) SELECT `costo`, `name` FROM `items` WHERE `name` = 'TELECOM ITALIA SPA'
+ ~ (2.293089) SELECT `description` FROM `items` WHERE `name` = 'TELECOM ITALIA SPA'
+ ~ (2.306294) SELECT `costo`, `name` FROM `items` WHERE `name` = 'NESTLE'' ITALIANA S.P.A.'
+ ~ (2.335743) SELECT `description` FROM `items` WHERE `name` = 'NESTLE'' ITALIANA S.P.A.'
+ ~ (2.285351) SELECT `costo`, `name` FROM `items` WHERE `name` = 'S.I.A.E.'
+ ~ (2.288136) SELECT `description` FROM `items` WHERE `name` = 'S.I.A.E.'
+ ~ (2.326132) SELECT `costo`, `name` FROM `items` WHERE `name` = 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (2.338858) SELECT `description` FROM `items` WHERE `name` = 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (2.274722) SELECT `costo`, `name` FROM `items` WHERE `name` = 'CASACCIA SRL'
+ ~ (2.287669) SELECT `description` FROM `items` WHERE `name` = 'CASACCIA SRL'
+ ~ (2.329462) SELECT `costo`, `name` FROM `items` WHERE `name` = 'CANTINA DEL FUCINO S.C.A.'
+ ~ (2.337458) SELECT `description` FROM `items` WHERE `name` = 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.001695) SELECT `costo`, `name` FROM `items` WHERE `name` = 'S.I.A.E.'
+ ~ (0.001953) SELECT `description` FROM `items` WHERE `name` = 'S.I.A.E.'
+ ~ (2.274668) SELECT `costo`, `name` FROM `items` WHERE `name` = 'SIMEONI PASQUALINO'
+ ~ (2.332657) SELECT `description` FROM `items` WHERE `name` = 'SIMEONI PASQUALINO'
+ ~ (2.310380) SELECT `costo`, `name` FROM `items` WHERE `name` = 'PASQUALONE S.R.L.'
+ ~ (2.336368) SELECT `description` FROM `items` WHERE `name` = 'PASQUALONE S.R.L.'
+ ~ (2.272139) SELECT `costo`, `name` FROM `items` WHERE `name` = 'IN''S MERCATO S.P.A.'
+ ~ (2.290977) SELECT `description` FROM `items` WHERE `name` = 'IN''S MERCATO S.P.A.'
+ ~ (2.307869) SELECT `costo`, `name` FROM `items` WHERE `name` = 'PA.FRA. SRL'
+ ~ (2.310032) SELECT `description` FROM `items` WHERE `name` = 'PA.FRA. SRL'
+ ~ (2.276217) SELECT `costo`, `name` FROM `items` WHERE `name` = 'GELTRUDE SCATENA'
+ ~ (2.288769) SELECT `description` FROM `items` WHERE `name` = 'GELTRUDE SCATENA'
+ ~ (2.307506) SELECT `costo`, `name` FROM `items` WHERE `name` = 'DI RENZO S.R.L.'
+ ~ (2.313946) SELECT `description` FROM `items` WHERE `name` = 'DI RENZO S.R.L.'
+ ~ (2.275664) SELECT `costo`, `name` FROM `items` WHERE `name` = 'ANTINCENDIO MARSICA SAS'
+ ~ (2.285922) SELECT `description` FROM `items` WHERE `name` = 'ANTINCENDIO MARSICA SAS'
+ ~ (2.307547) SELECT `costo`, `name` FROM `items` WHERE `name` = 'NATFOOD S.R.L.'
+ ~ (2.314617) SELECT `description` FROM `items` WHERE `name` = 'NATFOOD S.R.L.'
+ ~ (2.274464) SELECT `costo`, `name` FROM `items` WHERE `name` = 'BIANUCCI LUCA'
+ ~ (2.288641) SELECT `description` FROM `items` WHERE `name` = 'BIANUCCI LUCA'
+ ~ (2.318844) SELECT `costo`, `name` FROM `items` WHERE `name` = 'SOLOSTAMPA S.A.S.'
+ ~ (2.335624) SELECT `description` FROM `items` WHERE `name` = 'SOLOSTAMPA S.A.S.'
+ ~ (2.272078) SELECT `costo`, `name` FROM `items` WHERE `name` = 'EUROSPIN'
+ ~ (2.288732) SELECT `description` FROM `items` WHERE `name` = 'EUROSPIN'
+ ~ (2.311493) SELECT `costo`, `name` FROM `items` WHERE `name` = 'ICA FOODS SPA'
+ ~ (2.309483) SELECT `description` FROM `items` WHERE `name` = 'ICA FOODS SPA'
+ ~ (2.271304) SELECT `costo`, `name` FROM `items` WHERE `name` = 'INGROSCART S.R.L.'
+ ~ (2.290845) SELECT `description` FROM `items` WHERE `name` = 'INGROSCART S.R.L.'
+ ~ (2.311231) SELECT `costo`, `name` FROM `items` WHERE `name` = 'GEAS DISTRIBUZIONE SPA'
+ ~ (2.374745) SELECT `description` FROM `items` WHERE `name` = 'GEAS DISTRIBUZIONE SPA'
+ ~ (2.275431) SELECT `costo`, `name` FROM `items` WHERE `name` = 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (2.289145) SELECT `description` FROM `items` WHERE `name` = 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (2.310550) SELECT `costo`, `name` FROM `items` WHERE `name` = 'GEL.DI. SPA'
+ ~ (2.315224) SELECT `description` FROM `items` WHERE `name` = 'GEL.DI. SPA'
+ ~ (2.275338) SELECT `costo`, `name` FROM `items` WHERE `name` = 'MERIDIONAL SNACKS'
+ ~ (2.285830) SELECT `description` FROM `items` WHERE `name` = 'MERIDIONAL SNACKS'
+ ~ (2.306339) SELECT `costo`, `name` FROM `items` WHERE `name` = 'FERRERO S.P.A.'
+ ~ (2.313579) SELECT `description` FROM `items` WHERE `name` = 'FERRERO S.P.A.'
+ ~ (0.002585) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002290) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001658) SELECT `costo`, `name` FROM `items` WHERE `name` = 'SORGENIA S.P.A'
+ ~ (0.001677) SELECT `description` FROM `items` WHERE `name` = 'SORGENIA S.P.A'
+ ~ (0.001849) SELECT `costo`, `name` FROM `items` WHERE `name` = 'TELECOM ITALIA SPA'
+ ~ (0.001863) SELECT `description` FROM `items` WHERE `name` = 'TELECOM ITALIA SPA'
+ ~ (0.001794) SELECT `costo`, `name` FROM `items` WHERE `name` = 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.001693) SELECT `description` FROM `items` WHERE `name` = 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.001742) SELECT `costo`, `name` FROM `items` WHERE `name` = 'S.I.A.E.'
+ ~ (0.001735) SELECT `description` FROM `items` WHERE `name` = 'S.I.A.E.'
+ ~ (0.002009) SELECT `costo`, `name` FROM `items` WHERE `name` = 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (0.002076) SELECT `description` FROM `items` WHERE `name` = 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (0.001810) SELECT `costo`, `name` FROM `items` WHERE `name` = 'CASACCIA SRL'
+ ~ (0.003945) SELECT `description` FROM `items` WHERE `name` = 'CASACCIA SRL'
+ ~ (0.001877) SELECT `costo`, `name` FROM `items` WHERE `name` = 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.001863) SELECT `description` FROM `items` WHERE `name` = 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.001938) SELECT `costo`, `name` FROM `items` WHERE `name` = 'S.I.A.E.'
+ ~ (0.002001) SELECT `description` FROM `items` WHERE `name` = 'S.I.A.E.'
+ ~ (0.002240) SELECT `costo`, `name` FROM `items` WHERE `name` = 'SIMEONI PASQUALINO'
+ ~ (0.002417) SELECT `description` FROM `items` WHERE `name` = 'SIMEONI PASQUALINO'
+ ~ (0.001698) SELECT `costo`, `name` FROM `items` WHERE `name` = 'PASQUALONE S.R.L.'
+ ~ (0.001805) SELECT `description` FROM `items` WHERE `name` = 'PASQUALONE S.R.L.'
+ ~ (0.001834) SELECT `costo`, `name` FROM `items` WHERE `name` = 'IN''S MERCATO S.P.A.'
+ ~ (0.002242) SELECT `description` FROM `items` WHERE `name` = 'IN''S MERCATO S.P.A.'
+ ~ (0.001691) SELECT `costo`, `name` FROM `items` WHERE `name` = 'PA.FRA. SRL'
+ ~ (0.001751) SELECT `description` FROM `items` WHERE `name` = 'PA.FRA. SRL'
+ ~ (0.001671) SELECT `costo`, `name` FROM `items` WHERE `name` = 'GELTRUDE SCATENA'
+ ~ (0.001650) SELECT `description` FROM `items` WHERE `name` = 'GELTRUDE SCATENA'
+ ~ (0.001820) SELECT `costo`, `name` FROM `items` WHERE `name` = 'DI RENZO S.R.L.'
+ ~ (0.004510) SELECT `description` FROM `items` WHERE `name` = 'DI RENZO S.R.L.'
+ ~ (0.001809) SELECT `costo`, `name` FROM `items` WHERE `name` = 'ANTINCENDIO MARSICA SAS'
+ ~ (0.001669) SELECT `description` FROM `items` WHERE `name` = 'ANTINCENDIO MARSICA SAS'
+ ~ (0.001764) SELECT `costo`, `name` FROM `items` WHERE `name` = 'NATFOOD S.R.L.'
+ ~ (0.001836) SELECT `description` FROM `items` WHERE `name` = 'NATFOOD S.R.L.'
+ ~ (0.001713) SELECT `costo`, `name` FROM `items` WHERE `name` = 'BIANUCCI LUCA'
+ ~ (0.001722) SELECT `description` FROM `items` WHERE `name` = 'BIANUCCI LUCA'
+ ~ (0.001731) SELECT `costo`, `name` FROM `items` WHERE `name` = 'SOLOSTAMPA S.A.S.'
+ ~ (0.001874) SELECT `description` FROM `items` WHERE `name` = 'SOLOSTAMPA S.A.S.'
+ ~ (0.001670) SELECT `costo`, `name` FROM `items` WHERE `name` = 'EUROSPIN'
+ ~ (0.001645) SELECT `description` FROM `items` WHERE `name` = 'EUROSPIN'
+ ~ (0.001956) SELECT `costo`, `name` FROM `items` WHERE `name` = 'ICA FOODS SPA'
+ ~ (0.001666) SELECT `description` FROM `items` WHERE `name` = 'ICA FOODS SPA'
+ ~ (0.001736) SELECT `costo`, `name` FROM `items` WHERE `name` = 'INGROSCART S.R.L.'
+ ~ (0.001727) SELECT `description` FROM `items` WHERE `name` = 'INGROSCART S.R.L.'
+ ~ (0.002112) SELECT `costo`, `name` FROM `items` WHERE `name` = 'GEAS DISTRIBUZIONE SPA'
+ ~ (0.001972) SELECT `description` FROM `items` WHERE `name` = 'GEAS DISTRIBUZIONE SPA'
+ ~ (0.001887) SELECT `costo`, `name` FROM `items` WHERE `name` = 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (0.001888) SELECT `description` FROM `items` WHERE `name` = 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (0.001846) SELECT `costo`, `name` FROM `items` WHERE `name` = 'GEL.DI. SPA'
+ ~ (0.001844) SELECT `description` FROM `items` WHERE `name` = 'GEL.DI. SPA'
+ ~ (0.001843) SELECT `costo`, `name` FROM `items` WHERE `name` = 'MERIDIONAL SNACKS'
+ ~ (0.001706) SELECT `description` FROM `items` WHERE `name` = 'MERIDIONAL SNACKS'
+ ~ (0.002097) SELECT `costo`, `name` FROM `items` WHERE `name` = 'FERRERO S.P.A.'
+ ~ (0.001964) SELECT `description` FROM `items` WHERE `name` = 'FERRERO S.P.A.'
+ ~ (0.001939) SET sql_auto_is_null = 0
+ ~ (0.001943) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002324) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002445) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001687) SELECT `costo`, `name` FROM `items` WHERE `name` = 'SORGENIA S.P.A'
+ ~ (0.001731) SELECT `description` FROM `items` WHERE `name` = 'SORGENIA S.P.A'
+ ~ (0.001736) SELECT `costo`, `name` FROM `items` WHERE `name` = 'TELECOM ITALIA SPA'
+ ~ (0.001709) SELECT `description` FROM `items` WHERE `name` = 'TELECOM ITALIA SPA'
+ ~ (0.001759) SELECT `costo`, `name` FROM `items` WHERE `name` = 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.001759) SELECT `description` FROM `items` WHERE `name` = 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.001681) SELECT `costo`, `name` FROM `items` WHERE `name` = 'S.I.A.E.'
+ ~ (0.001868) SELECT `description` FROM `items` WHERE `name` = 'S.I.A.E.'
+ ~ (0.001995) SELECT `costo`, `name` FROM `items` WHERE `name` = 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (0.001992) SELECT `description` FROM `items` WHERE `name` = 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (0.001673) SELECT `costo`, `name` FROM `items` WHERE `name` = 'CASACCIA SRL'
+ ~ (0.001694) SELECT `description` FROM `items` WHERE `name` = 'CASACCIA SRL'
+ ~ (0.001700) SELECT `costo`, `name` FROM `items` WHERE `name` = 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.001716) SELECT `description` FROM `items` WHERE `name` = 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.001689) SELECT `costo`, `name` FROM `items` WHERE `name` = 'S.I.A.E.'
+ ~ (0.004135) SELECT `description` FROM `items` WHERE `name` = 'S.I.A.E.'
+ ~ (0.002243) SELECT `costo`, `name` FROM `items` WHERE `name` = 'SIMEONI PASQUALINO'
+ ~ (0.002288) SELECT `description` FROM `items` WHERE `name` = 'SIMEONI PASQUALINO'
+ ~ (0.001767) SELECT `costo`, `name` FROM `items` WHERE `name` = 'PASQUALONE S.R.L.'
+ ~ (0.001773) SELECT `description` FROM `items` WHERE `name` = 'PASQUALONE S.R.L.'
+ ~ (0.001776) SELECT `costo`, `name` FROM `items` WHERE `name` = 'IN''S MERCATO S.P.A.'
+ ~ (0.001881) SELECT `description` FROM `items` WHERE `name` = 'IN''S MERCATO S.P.A.'
+ ~ (0.001788) SELECT `costo`, `name` FROM `items` WHERE `name` = 'PA.FRA. SRL'
+ ~ (0.001677) SELECT `description` FROM `items` WHERE `name` = 'PA.FRA. SRL'
+ ~ (0.001802) SELECT `costo`, `name` FROM `items` WHERE `name` = 'GELTRUDE SCATENA'
+ ~ (0.001799) SELECT `description` FROM `items` WHERE `name` = 'GELTRUDE SCATENA'
+ ~ (0.001788) SELECT `costo`, `name` FROM `items` WHERE `name` = 'DI RENZO S.R.L.'
+ ~ (0.001987) SELECT `description` FROM `items` WHERE `name` = 'DI RENZO S.R.L.'
+ ~ (0.001763) SELECT `costo`, `name` FROM `items` WHERE `name` = 'ANTINCENDIO MARSICA SAS'
+ ~ (0.001700) SELECT `description` FROM `items` WHERE `name` = 'ANTINCENDIO MARSICA SAS'
+ ~ (0.001932) SELECT `costo`, `name` FROM `items` WHERE `name` = 'NATFOOD S.R.L.'
+ ~ (0.002062) SELECT `description` FROM `items` WHERE `name` = 'NATFOOD S.R.L.'
+ ~ (0.001631) SELECT `costo`, `name` FROM `items` WHERE `name` = 'BIANUCCI LUCA'
+ ~ (0.001949) SELECT `description` FROM `items` WHERE `name` = 'BIANUCCI LUCA'
+ ~ (0.001781) SELECT `costo`, `name` FROM `items` WHERE `name` = 'SOLOSTAMPA S.A.S.'
+ ~ (0.001694) SELECT `description` FROM `items` WHERE `name` = 'SOLOSTAMPA S.A.S.'
+ ~ (0.001748) SELECT `costo`, `name` FROM `items` WHERE `name` = 'EUROSPIN'
+ ~ (0.001822) SELECT `description` FROM `items` WHERE `name` = 'EUROSPIN'
+ ~ (0.001728) SELECT `costo`, `name` FROM `items` WHERE `name` = 'ICA FOODS SPA'
+ ~ (0.001998) SELECT `description` FROM `items` WHERE `name` = 'ICA FOODS SPA'
+ ~ (0.001975) SELECT `costo`, `name` FROM `items` WHERE `name` = 'INGROSCART S.R.L.'
+ ~ (0.001850) SELECT `description` FROM `items` WHERE `name` = 'INGROSCART S.R.L.'
+ ~ (0.002084) SELECT `costo`, `name` FROM `items` WHERE `name` = 'GEAS DISTRIBUZIONE SPA'
+ ~ (0.002242) SELECT `description` FROM `items` WHERE `name` = 'GEAS DISTRIBUZIONE SPA'
+ ~ (0.001997) SELECT `costo`, `name` FROM `items` WHERE `name` = 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (0.001888) SELECT `description` FROM `items` WHERE `name` = 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (0.002224) SELECT `costo`, `name` FROM `items` WHERE `name` = 'GEL.DI. SPA'
+ ~ (0.001902) SELECT `description` FROM `items` WHERE `name` = 'GEL.DI. SPA'
+ ~ (0.001750) SELECT `costo`, `name` FROM `items` WHERE `name` = 'MERIDIONAL SNACKS'
+ ~ (0.001702) SELECT `description` FROM `items` WHERE `name` = 'MERIDIONAL SNACKS'
+ ~ (0.001838) SELECT `costo`, `name` FROM `items` WHERE `name` = 'FERRERO S.P.A.'
+ ~ (0.001961) SELECT `description` FROM `items` WHERE `name` = 'FERRERO S.P.A.'
+ ~ (0.001736) SET sql_auto_is_null = 0
+ ~ (0.001865) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002317) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002220) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (2.330911) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001760) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001642) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001823) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001789) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001658) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001828) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001649) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001684) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001778) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001748) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001823) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001719) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001678) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001642) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001671) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001696) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001666) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.004133) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001674) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001733) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001617) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001651) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001755) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001642) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.001697) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE '#{vendor.name}'
+ ~ (0.002414) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002387) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (2.374569) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SORGENIA S.P.A'
+ ~ (2.354516) SELECT `description` FROM `items` WHERE `name` LIKE 'SORGENIA S.P.A'
+ ~ (2.372963) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'TELECOM ITALIA SPA'
+ ~ (2.356975) SELECT `description` FROM `items` WHERE `name` LIKE 'TELECOM ITALIA SPA'
+ ~ (2.376537) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'NESTLE'' ITALIANA S.P.A.'
+ ~ (2.359544) SELECT `description` FROM `items` WHERE `name` LIKE 'NESTLE'' ITALIANA S.P.A.'
+ ~ (2.372969) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (2.358641) SELECT `description` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.001768) SET sql_auto_is_null = 0
+ ~ (0.001902) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.004555) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002322) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001827) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SORGENIA S.P.A'
+ ~ (0.001854) SELECT `description` FROM `items` WHERE `name` LIKE 'SORGENIA S.P.A'
+ ~ (0.001986) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'TELECOM ITALIA SPA'
+ ~ (0.001901) SELECT `description` FROM `items` WHERE `name` LIKE 'TELECOM ITALIA SPA'
+ ~ (0.003874) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.001856) SELECT `description` FROM `items` WHERE `name` LIKE 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.001950) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.001955) SELECT `description` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (4.345273) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (4.541856) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (4.387031) SELECT `description` FROM `items` WHERE `name` LIKE 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (4.620071) SELECT `description` FROM `items` WHERE `name` LIKE 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (4.379975) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CASACCIA SRL'
+ ~ (4.570144) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CASACCIA SRL'
+ ~ (4.302176) SELECT `description` FROM `items` WHERE `name` LIKE 'CASACCIA SRL'
+ ~ (4.641594) SELECT `description` FROM `items` WHERE `name` LIKE 'CASACCIA SRL'
+ ~ (4.365543) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CANTINA DEL FUCINO S.C.A.'
+ ~ (4.544645) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CANTINA DEL FUCINO S.C.A.'
+ ~ (4.309566) SELECT `description` FROM `items` WHERE `name` LIKE 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.001894) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.001932) SELECT `description` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (4.622061) SELECT `description` FROM `items` WHERE `name` LIKE 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.001884) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.001950) SELECT `description` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (4.323817) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SIMEONI PASQUALINO'
+ ~ (4.675023) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SIMEONI PASQUALINO'
+ ~ (0.001952) SET sql_auto_is_null = 0
+ ~ (0.002290) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002381) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002427) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001870) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SORGENIA S.P.A'
+ ~ (0.001868) SELECT `description` FROM `items` WHERE `name` LIKE 'SORGENIA S.P.A'
+ ~ (0.001892) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'TELECOM ITALIA SPA'
+ ~ (0.001878) SELECT `description` FROM `items` WHERE `name` LIKE 'TELECOM ITALIA SPA'
+ ~ (0.001863) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.001987) SELECT `description` FROM `items` WHERE `name` LIKE 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.001808) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.001868) SELECT `description` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.002023) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (0.002004) SELECT `description` FROM `items` WHERE `name` LIKE 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (0.001837) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CASACCIA SRL'
+ ~ (0.001887) SELECT `description` FROM `items` WHERE `name` LIKE 'CASACCIA SRL'
+ ~ (0.001855) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.001908) SELECT `description` FROM `items` WHERE `name` LIKE 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.001804) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.001968) SELECT `description` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.002274) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SIMEONI PASQUALINO'
+ ~ (5.005787) SELECT `description` FROM `items` WHERE `name` LIKE 'SIMEONI PASQUALINO'
+ ~ (6.405275) SELECT `description` FROM `items` WHERE `name` LIKE 'SIMEONI PASQUALINO'
+ ~ (6.528662) SELECT `description` FROM `items` WHERE `name` LIKE 'SIMEONI PASQUALINO'
+ ~ (6.546824) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'PASQUALONE S.R.L.'
+ ~ (6.947305) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'PASQUALONE S.R.L.'
+ ~ (6.439196) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'PASQUALONE S.R.L.'
+ ~ (6.481648) SELECT `description` FROM `items` WHERE `name` LIKE 'PASQUALONE S.R.L.'
+ ~ (6.805748) SELECT `description` FROM `items` WHERE `name` LIKE 'PASQUALONE S.R.L.'
+ ~ (6.652250) SELECT `description` FROM `items` WHERE `name` LIKE 'PASQUALONE S.R.L.'
+ ~ (6.645654) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'IN''S MERCATO S.P.A.'
+ ~ (6.864852) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'IN''S MERCATO S.P.A.'
+ ~ (6.617178) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'IN''S MERCATO S.P.A.'
+ ~ (6.401954) SELECT `description` FROM `items` WHERE `name` LIKE 'IN''S MERCATO S.P.A.'
+ ~ (6.811104) SELECT `description` FROM `items` WHERE `name` LIKE 'IN''S MERCATO S.P.A.'
+ ~ (6.581685) SELECT `description` FROM `items` WHERE `name` LIKE 'IN''S MERCATO S.P.A.'
+ ~ (6.392051) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'PA.FRA. SRL'
+ ~ (6.705546) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'PA.FRA. SRL'
+ ~ (6.618971) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'PA.FRA. SRL'
+ ~ (6.464679) SELECT `description` FROM `items` WHERE `name` LIKE 'PA.FRA. SRL'
+ ~ (6.874390) SELECT `description` FROM `items` WHERE `name` LIKE 'PA.FRA. SRL'
+ ~ (6.607582) SELECT `description` FROM `items` WHERE `name` LIKE 'PA.FRA. SRL'
+ ~ (6.432134) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GELTRUDE SCATENA'
+ ~ (6.617708) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GELTRUDE SCATENA'
+ ~ (6.930766) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GELTRUDE SCATENA'
+ ~ (6.397123) SELECT `description` FROM `items` WHERE `name` LIKE 'GELTRUDE SCATENA'
+ ~ (6.633114) SELECT `description` FROM `items` WHERE `name` LIKE 'GELTRUDE SCATENA'
+ ~ (7.014181) SELECT `description` FROM `items` WHERE `name` LIKE 'GELTRUDE SCATENA'
+ ~ (6.421835) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'DI RENZO S.R.L.'
+ ~ (6.640688) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'DI RENZO S.R.L.'
+ ~ (6.525073) SELECT `description` FROM `items` WHERE `name` LIKE 'DI RENZO S.R.L.'
+ ~ (6.917025) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'DI RENZO S.R.L.'
+ ~ (0.002119) SELECT `description` FROM `items` WHERE `name` LIKE 'DI RENZO S.R.L.'
+ ~ (6.679701) SELECT `description` FROM `items` WHERE `name` LIKE 'DI RENZO S.R.L.'
+ ~ (6.510424) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'ANTINCENDIO MARSICA SAS'
+ ~ (6.950461) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'ANTINCENDIO MARSICA SAS'
+ ~ (6.634083) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'ANTINCENDIO MARSICA SAS'
+ ~ (6.396325) SELECT `description` FROM `items` WHERE `name` LIKE 'ANTINCENDIO MARSICA SAS'
+ ~ (6.891282) SELECT `description` FROM `items` WHERE `name` LIKE 'ANTINCENDIO MARSICA SAS'
+ ~ (6.638533) SELECT `description` FROM `items` WHERE `name` LIKE 'ANTINCENDIO MARSICA SAS'
+ ~ (7.834102) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'NATFOOD S.R.L.'
+ ~ (6.631803) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'NATFOOD S.R.L.'
+ ~ (0.011528) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'NATFOOD S.R.L.'
+ ~ (6.593419) SELECT `description` FROM `items` WHERE `name` LIKE 'NATFOOD S.R.L.'
+ ~ (6.632511) SELECT `description` FROM `items` WHERE `name` LIKE 'NATFOOD S.R.L.'
+ ~ (6.788799) SELECT `description` FROM `items` WHERE `name` LIKE 'NATFOOD S.R.L.'
+ ~ (6.293218) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'BIANUCCI LUCA'
+ ~ (6.619831) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'BIANUCCI LUCA'
+ ~ (6.807262) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'BIANUCCI LUCA'
+ ~ (6.450645) SELECT `description` FROM `items` WHERE `name` LIKE 'BIANUCCI LUCA'
+ ~ (6.601681) SELECT `description` FROM `items` WHERE `name` LIKE 'BIANUCCI LUCA'
+ ~ (6.762741) SELECT `description` FROM `items` WHERE `name` LIKE 'BIANUCCI LUCA'
+ ~ (6.502206) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SOLOSTAMPA S.A.S.'
+ ~ (6.597368) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SOLOSTAMPA S.A.S.'
+ ~ (6.768871) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SOLOSTAMPA S.A.S.'
+ ~ (6.547712) SELECT `description` FROM `items` WHERE `name` LIKE 'SOLOSTAMPA S.A.S.'
+ ~ (6.640321) SELECT `description` FROM `items` WHERE `name` LIKE 'SOLOSTAMPA S.A.S.'
+ ~ (6.609442) SELECT `description` FROM `items` WHERE `name` LIKE 'SOLOSTAMPA S.A.S.'
+ ~ (6.412735) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'EUROSPIN'
+ ~ (6.625138) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'EUROSPIN'
+ ~ (6.713607) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'EUROSPIN'
+ ~ (6.585877) SELECT `description` FROM `items` WHERE `name` LIKE 'EUROSPIN'
+ ~ (6.605957) SELECT `description` FROM `items` WHERE `name` LIKE 'EUROSPIN'
+ ~ (6.780345) SELECT `description` FROM `items` WHERE `name` LIKE 'EUROSPIN'
+ ~ (6.602980) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'ICA FOODS SPA'
+ ~ (6.598104) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'ICA FOODS SPA'
+ ~ (6.830302) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'ICA FOODS SPA'
+ ~ (6.780231) SELECT `description` FROM `items` WHERE `name` LIKE 'ICA FOODS SPA'
+ ~ (6.929444) SELECT `description` FROM `items` WHERE `name` LIKE 'ICA FOODS SPA'
+ ~ (7.005700) SELECT `description` FROM `items` WHERE `name` LIKE 'ICA FOODS SPA'
+ ~ (6.515259) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'INGROSCART S.R.L.'
+ ~ (6.607480) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'INGROSCART S.R.L.'
+ ~ (6.775420) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'INGROSCART S.R.L.'
+ ~ (6.561580) SELECT `description` FROM `items` WHERE `name` LIKE 'INGROSCART S.R.L.'
+ ~ (6.636447) SELECT `description` FROM `items` WHERE `name` LIKE 'INGROSCART S.R.L.'
+ ~ (6.757928) SELECT `description` FROM `items` WHERE `name` LIKE 'INGROSCART S.R.L.'
+ ~ (6.532761) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GEAS DISTRIBUZIONE SPA'
+ ~ (6.613655) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GEAS DISTRIBUZIONE SPA'
+ ~ (6.870179) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GEAS DISTRIBUZIONE SPA'
+ ~ (6.533517) SELECT `description` FROM `items` WHERE `name` LIKE 'GEAS DISTRIBUZIONE SPA'
+ ~ (6.573694) SELECT `description` FROM `items` WHERE `name` LIKE 'GEAS DISTRIBUZIONE SPA'
+ ~ (6.745055) SELECT `description` FROM `items` WHERE `name` LIKE 'GEAS DISTRIBUZIONE SPA'
+ ~ (6.561678) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (6.422890) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (6.843682) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (6.681102) SELECT `description` FROM `items` WHERE `name` LIKE 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (6.617159) SELECT `description` FROM `items` WHERE `name` LIKE 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (6.830892) SELECT `description` FROM `items` WHERE `name` LIKE 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (6.603711) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GEL.DI. SPA'
+ ~ (6.594204) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GEL.DI. SPA'
+ ~ (7.006426) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GEL.DI. SPA'
+ ~ (6.515654) SELECT `description` FROM `items` WHERE `name` LIKE 'GEL.DI. SPA'
+ ~ (6.613286) SELECT `description` FROM `items` WHERE `name` LIKE 'GEL.DI. SPA'
+ ~ (0.001960) SET sql_auto_is_null = 0
+ ~ (0.001872) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002514) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002333) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001805) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SORGENIA S.P.A'
+ ~ (0.001895) SELECT `description` FROM `items` WHERE `name` LIKE 'SORGENIA S.P.A'
+ ~ (0.001857) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'TELECOM ITALIA SPA'
+ ~ (0.001978) SELECT `description` FROM `items` WHERE `name` LIKE 'TELECOM ITALIA SPA'
+ ~ (0.002040) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.001957) SELECT `description` FROM `items` WHERE `name` LIKE 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.001935) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.002011) SELECT `description` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.002085) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (0.002109) SELECT `description` FROM `items` WHERE `name` LIKE 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (0.001939) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CASACCIA SRL'
+ ~ (0.001821) SELECT `description` FROM `items` WHERE `name` LIKE 'CASACCIA SRL'
+ ~ (0.001835) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.002072) SELECT `description` FROM `items` WHERE `name` LIKE 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.001884) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.001833) SELECT `description` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.002415) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SIMEONI PASQUALINO'
+ ~ (0.002361) SELECT `description` FROM `items` WHERE `name` LIKE 'SIMEONI PASQUALINO'
+ ~ (0.001996) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'PASQUALONE S.R.L.'
+ ~ (6.690489) SELECT `description` FROM `items` WHERE `name` LIKE 'GEL.DI. SPA'
+ ~ (0.006042) SELECT `description` FROM `items` WHERE `name` LIKE 'PASQUALONE S.R.L.'
+ ~ (0.002126) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'IN''S MERCATO S.P.A.'
+ ~ (0.001863) SELECT `description` FROM `items` WHERE `name` LIKE 'IN''S MERCATO S.P.A.'
+ ~ (0.001914) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'PA.FRA. SRL'
+ ~ (0.001881) SELECT `description` FROM `items` WHERE `name` LIKE 'PA.FRA. SRL'
+ ~ (0.001941) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GELTRUDE SCATENA'
+ ~ (0.001776) SELECT `description` FROM `items` WHERE `name` LIKE 'GELTRUDE SCATENA'
+ ~ (0.001890) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'DI RENZO S.R.L.'
+ ~ (0.002218) SELECT `description` FROM `items` WHERE `name` LIKE 'DI RENZO S.R.L.'
+ ~ (0.001865) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'ANTINCENDIO MARSICA SAS'
+ ~ (0.001755) SELECT `description` FROM `items` WHERE `name` LIKE 'ANTINCENDIO MARSICA SAS'
+ ~ (0.001922) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'NATFOOD S.R.L.'
+ ~ (0.001961) SELECT `description` FROM `items` WHERE `name` LIKE 'NATFOOD S.R.L.'
+ ~ (0.001772) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'BIANUCCI LUCA'
+ ~ (0.001869) SELECT `description` FROM `items` WHERE `name` LIKE 'BIANUCCI LUCA'
+ ~ (0.001877) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SOLOSTAMPA S.A.S.'
+ ~ (0.001772) SELECT `description` FROM `items` WHERE `name` LIKE 'SOLOSTAMPA S.A.S.'
+ ~ (0.001832) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'EUROSPIN'
+ ~ (0.001882) SELECT `description` FROM `items` WHERE `name` LIKE 'EUROSPIN'
+ ~ (0.001783) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'ICA FOODS SPA'
+ ~ (0.001843) SELECT `description` FROM `items` WHERE `name` LIKE 'ICA FOODS SPA'
+ ~ (0.001796) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'INGROSCART S.R.L.'
+ ~ (0.001753) SELECT `description` FROM `items` WHERE `name` LIKE 'INGROSCART S.R.L.'
+ ~ (0.002241) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GEAS DISTRIBUZIONE SPA'
+ ~ (0.002159) SELECT `description` FROM `items` WHERE `name` LIKE 'GEAS DISTRIBUZIONE SPA'
+ ~ (0.002146) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (0.001983) SELECT `description` FROM `items` WHERE `name` LIKE 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (0.001880) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GEL.DI. SPA'
+ ~ (0.002010) SELECT `description` FROM `items` WHERE `name` LIKE 'GEL.DI. SPA'
+ ~ (0.001933) SET sql_auto_is_null = 0
+ ~ (0.002142) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002455) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002356) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001832) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SORGENIA S.P.A'
+ ~ (0.001913) SELECT `description` FROM `items` WHERE `name` LIKE 'SORGENIA S.P.A'
+ ~ (0.001902) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'TELECOM ITALIA SPA'
+ ~ (0.001939) SELECT `description` FROM `items` WHERE `name` LIKE 'TELECOM ITALIA SPA'
+ ~ (0.001783) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.001914) SELECT `description` FROM `items` WHERE `name` LIKE 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.001845) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.001941) SELECT `description` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.002095) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (0.002163) SELECT `description` FROM `items` WHERE `name` LIKE 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (0.001995) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CASACCIA SRL'
+ ~ (0.001911) SELECT `description` FROM `items` WHERE `name` LIKE 'CASACCIA SRL'
+ ~ (0.001988) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.001823) SELECT `description` FROM `items` WHERE `name` LIKE 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.004332) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.002009) SELECT `description` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.002545) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SIMEONI PASQUALINO'
+ ~ (0.002445) SELECT `description` FROM `items` WHERE `name` LIKE 'SIMEONI PASQUALINO'
+ ~ (0.039966) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'PASQUALONE S.R.L.'
+ ~ (0.001899) SET sql_auto_is_null = 0
+ ~ (0.001962) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.004716) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.021446) SELECT `description` FROM `items` WHERE `name` LIKE 'PASQUALONE S.R.L.'
+ ~ (0.004074) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.010407) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'IN''S MERCATO S.P.A.'
+ ~ (0.003782) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SORGENIA S.P.A'
+ ~ (0.003459) SELECT `description` FROM `items` WHERE `name` LIKE 'SORGENIA S.P.A'
+ ~ (0.003508) SELECT `description` FROM `items` WHERE `name` LIKE 'IN''S MERCATO S.P.A.'
+ ~ (0.004383) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'TELECOM ITALIA SPA'
+ ~ (0.003870) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'PA.FRA. SRL'
+ ~ (0.003137) SELECT `description` FROM `items` WHERE `name` LIKE 'TELECOM ITALIA SPA'
+ ~ (0.003840) SELECT `description` FROM `items` WHERE `name` LIKE 'PA.FRA. SRL'
+ ~ (0.003395) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.003314) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GELTRUDE SCATENA'
+ ~ (0.003461) SELECT `description` FROM `items` WHERE `name` LIKE 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.002897) SELECT `description` FROM `items` WHERE `name` LIKE 'GELTRUDE SCATENA'
+ ~ (0.003071) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.009170) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'DI RENZO S.R.L.'
+ ~ (0.005368) SELECT `description` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.003639) SELECT `description` FROM `items` WHERE `name` LIKE 'DI RENZO S.R.L.'
+ ~ (0.004572) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (0.004440) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'ANTINCENDIO MARSICA SAS'
+ ~ (0.003323) SELECT `description` FROM `items` WHERE `name` LIKE 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (0.006860) SELECT `description` FROM `items` WHERE `name` LIKE 'ANTINCENDIO MARSICA SAS'
+ ~ (0.003348) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CASACCIA SRL'
+ ~ (0.003400) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'NATFOOD S.R.L.'
+ ~ (0.003925) SELECT `description` FROM `items` WHERE `name` LIKE 'CASACCIA SRL'
+ ~ (0.003005) SELECT `description` FROM `items` WHERE `name` LIKE 'NATFOOD S.R.L.'
+ ~ (0.004439) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.003923) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'BIANUCCI LUCA'
+ ~ (0.002973) SELECT `description` FROM `items` WHERE `name` LIKE 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.003031) SELECT `description` FROM `items` WHERE `name` LIKE 'BIANUCCI LUCA'
+ ~ (0.002428) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.003086) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SOLOSTAMPA S.A.S.'
+ ~ (0.003033) SELECT `description` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.003210) SELECT `description` FROM `items` WHERE `name` LIKE 'SOLOSTAMPA S.A.S.'
+ ~ (0.002770) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SIMEONI PASQUALINO'
+ ~ (0.007335) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'EUROSPIN'
+ ~ (0.003697) SELECT `description` FROM `items` WHERE `name` LIKE 'SIMEONI PASQUALINO'
+ ~ (0.013016) SELECT `description` FROM `items` WHERE `name` LIKE 'EUROSPIN'
+ ~ (0.003940) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'PASQUALONE S.R.L.'
+ ~ (0.005687) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'ICA FOODS SPA'
+ ~ (0.004617) SELECT `description` FROM `items` WHERE `name` LIKE 'PASQUALONE S.R.L.'
+ ~ (0.005156) SELECT `description` FROM `items` WHERE `name` LIKE 'ICA FOODS SPA'
+ ~ (0.004544) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'IN''S MERCATO S.P.A.'
+ ~ (0.005371) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'INGROSCART S.R.L.'
+ ~ (0.003585) SELECT `description` FROM `items` WHERE `name` LIKE 'IN''S MERCATO S.P.A.'
+ ~ (0.005869) SELECT `description` FROM `items` WHERE `name` LIKE 'INGROSCART S.R.L.'
+ ~ (0.003341) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'PA.FRA. SRL'
+ ~ (0.003757) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GEAS DISTRIBUZIONE SPA'
+ ~ (0.008168) SELECT `description` FROM `items` WHERE `name` LIKE 'PA.FRA. SRL'
+ ~ (0.005809) SELECT `description` FROM `items` WHERE `name` LIKE 'GEAS DISTRIBUZIONE SPA'
+ ~ (0.002025) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GELTRUDE SCATENA'
+ ~ (0.003869) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (0.005174) SELECT `description` FROM `items` WHERE `name` LIKE 'GELTRUDE SCATENA'
+ ~ (0.003391) SELECT `description` FROM `items` WHERE `name` LIKE 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (0.005719) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'DI RENZO S.R.L.'
+ ~ (0.005488) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GEL.DI. SPA'
+ ~ (0.004960) SELECT `description` FROM `items` WHERE `name` LIKE 'DI RENZO S.R.L.'
+ ~ (0.006310) SELECT `description` FROM `items` WHERE `name` LIKE 'GEL.DI. SPA'
+ ~ (0.006301) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'ANTINCENDIO MARSICA SAS'
+ ~ (0.001988) SELECT `description` FROM `items` WHERE `name` LIKE 'ANTINCENDIO MARSICA SAS'
+ ~ (0.001988) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'NATFOOD S.R.L.'
+ ~ (0.002073) SELECT `description` FROM `items` WHERE `name` LIKE 'NATFOOD S.R.L.'
+ ~ (0.001909) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'BIANUCCI LUCA'
+ ~ (0.002032) SELECT `description` FROM `items` WHERE `name` LIKE 'BIANUCCI LUCA'
+ ~ (0.001879) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SOLOSTAMPA S.A.S.'
+ ~ (0.001946) SELECT `description` FROM `items` WHERE `name` LIKE 'SOLOSTAMPA S.A.S.'
+ ~ (0.001892) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'EUROSPIN'
+ ~ (0.001883) SELECT `description` FROM `items` WHERE `name` LIKE 'EUROSPIN'
+ ~ (0.001871) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'ICA FOODS SPA'
+ ~ (0.001987) SELECT `description` FROM `items` WHERE `name` LIKE 'ICA FOODS SPA'
+ ~ (0.001808) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'INGROSCART S.R.L.'
+ ~ (0.001811) SELECT `description` FROM `items` WHERE `name` LIKE 'INGROSCART S.R.L.'
+ ~ (0.002365) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GEAS DISTRIBUZIONE SPA'
+ ~ (0.002206) SELECT `description` FROM `items` WHERE `name` LIKE 'GEAS DISTRIBUZIONE SPA'
+ ~ (0.002091) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (0.001905) SELECT `description` FROM `items` WHERE `name` LIKE 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (0.001884) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GEL.DI. SPA'
+ ~ (0.002014) SELECT `description` FROM `items` WHERE `name` LIKE 'GEL.DI. SPA'
+ ~ (8.577459) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'MERIDIONAL SNACKS'
+ ~ (0.001979) SET sql_auto_is_null = 0
+ ~ (0.002131) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002393) SELECT `guid`, `currency`, `active`, `tax_override`, `addr_phone`, `addr_fax`, `addr_email`, `terms`, `tax_table` FROM `vendors` ORDER BY `guid`
+ ~ (0.002418) SELECT `guid`, `name`, `id`, `notes`, `addr_name`, `addr_addr1`, `addr_addr2`, `addr_addr3`, `addr_addr4`, `tax_inc` FROM `vendors` ORDER BY `guid`
+ ~ (0.001861) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SORGENIA S.P.A'
+ ~ (0.001889) SELECT `description` FROM `items` WHERE `name` LIKE 'SORGENIA S.P.A'
+ ~ (0.001912) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'TELECOM ITALIA SPA'
+ ~ (0.002642) SELECT `description` FROM `items` WHERE `name` LIKE 'TELECOM ITALIA SPA'
+ ~ (0.001896) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.002478) SELECT `description` FROM `items` WHERE `name` LIKE 'NESTLE'' ITALIANA S.P.A.'
+ ~ (0.003934) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.001831) SELECT `description` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.003128) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (0.002092) SELECT `description` FROM `items` WHERE `name` LIKE 'CRUCIANI SOFIA &C. S.A.S.'
+ ~ (0.004183) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CASACCIA SRL'
+ ~ (0.001987) SELECT `description` FROM `items` WHERE `name` LIKE 'CASACCIA SRL'
+ ~ (0.001795) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.001826) SELECT `description` FROM `items` WHERE `name` LIKE 'CANTINA DEL FUCINO S.C.A.'
+ ~ (0.001838) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.002004) SELECT `description` FROM `items` WHERE `name` LIKE 'S.I.A.E.'
+ ~ (0.002279) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SIMEONI PASQUALINO'
+ ~ (0.002342) SELECT `description` FROM `items` WHERE `name` LIKE 'SIMEONI PASQUALINO'
+ ~ (0.001997) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'PASQUALONE S.R.L.'
+ ~ (0.008809) SELECT `description` FROM `items` WHERE `name` LIKE 'PASQUALONE S.R.L.'
+ ~ (0.002078) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'IN''S MERCATO S.P.A.'
+ ~ (0.001875) SELECT `description` FROM `items` WHERE `name` LIKE 'IN''S MERCATO S.P.A.'
+ ~ (0.001887) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'PA.FRA. SRL'
+ ~ (0.001919) SELECT `description` FROM `items` WHERE `name` LIKE 'PA.FRA. SRL'
+ ~ (0.001976) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GELTRUDE SCATENA'
+ ~ (0.004016) SELECT `description` FROM `items` WHERE `name` LIKE 'GELTRUDE SCATENA'
+ ~ (0.001903) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'DI RENZO S.R.L.'
+ ~ (0.002058) SELECT `description` FROM `items` WHERE `name` LIKE 'DI RENZO S.R.L.'
+ ~ (0.001784) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'ANTINCENDIO MARSICA SAS'
+ ~ (0.001968) SELECT `description` FROM `items` WHERE `name` LIKE 'ANTINCENDIO MARSICA SAS'
+ ~ (0.001935) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'NATFOOD S.R.L.'
+ ~ (0.001961) SELECT `description` FROM `items` WHERE `name` LIKE 'NATFOOD S.R.L.'
+ ~ (0.001743) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'BIANUCCI LUCA'
+ ~ (0.001872) SELECT `description` FROM `items` WHERE `name` LIKE 'BIANUCCI LUCA'
+ ~ (0.011582) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SOLOSTAMPA S.A.S.'
+ ~ (0.001769) SELECT `description` FROM `items` WHERE `name` LIKE 'SOLOSTAMPA S.A.S.'
+ ~ (0.001890) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'EUROSPIN'
+ ~ (0.016375) SELECT `description` FROM `items` WHERE `name` LIKE 'EUROSPIN'
+ ~ (0.001837) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'ICA FOODS SPA'
+ ~ (0.004072) SELECT `description` FROM `items` WHERE `name` LIKE 'ICA FOODS SPA'
+ ~ (0.001907) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'INGROSCART S.R.L.'
+ ~ (0.001883) SELECT `description` FROM `items` WHERE `name` LIKE 'INGROSCART S.R.L.'
+ ~ (0.002328) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GEAS DISTRIBUZIONE SPA'
+ ~ (0.002198) SELECT `description` FROM `items` WHERE `name` LIKE 'GEAS DISTRIBUZIONE SPA'
+ ~ (0.002071) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (0.002022) SELECT `description` FROM `items` WHERE `name` LIKE 'SAN CARLO GRUPPO ALIMENTARE SPA'
+ ~ (0.002056) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'GEL.DI. SPA'
+ ~ (0.001994) SELECT `description` FROM `items` WHERE `name` LIKE 'GEL.DI. SPA'
+ ~ (0.001891) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'MERIDIONAL SNACKS'
+ ~ (10.252152) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'MERIDIONAL SNACKS'
+ ~ (13.496147) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'MERIDIONAL SNACKS'
+ ~ (14.771542) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'MERIDIONAL SNACKS'
+ ~ (14.436429) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'MERIDIONAL SNACKS'
+ ~ (14.623054) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'MERIDIONAL SNACKS'
+ ~ (14.213561) SELECT `description` FROM `items` WHERE `name` LIKE 'MERIDIONAL SNACKS'
+ ~ (15.050141) SELECT `description` FROM `items` WHERE `name` LIKE 'MERIDIONAL SNACKS'
+ ~ (15.336706) SELECT `description` FROM `items` WHERE `name` LIKE 'MERIDIONAL SNACKS'
+ ~ (14.590147) SELECT `description` FROM `items` WHERE `name` LIKE 'MERIDIONAL SNACKS'
+ ~ (15.739231) SELECT `description` FROM `items` WHERE `name` LIKE 'MERIDIONAL SNACKS'
+ ~ (14.971012) SELECT `description` FROM `items` WHERE `name` LIKE 'MERIDIONAL SNACKS'
+ ~ (15.151334) SELECT `description` FROM `items` WHERE `name` LIKE 'MERIDIONAL SNACKS'
+ ~ (13.812339) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'FERRERO S.P.A.'
+ ~ (14.685505) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'FERRERO S.P.A.'
+ ~ (14.767383) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'FERRERO S.P.A.'
+ ~ (14.286902) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'FERRERO S.P.A.'
+ ~ (14.925857) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'FERRERO S.P.A.'
+ ~ (15.265592) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'FERRERO S.P.A.'
+ ~ (16.094817) SELECT `costo`, `name` FROM `items` WHERE `name` LIKE 'FERRERO S.P.A.'
+ ~ (14.029570) SELECT `description` FROM `items` WHERE `name` LIKE 'FERRERO S.P.A.'
+ ~ (14.725495) SELECT `description` FROM `items` WHERE `name` LIKE 'FERRERO S.P.A.'
+ ~ (13.979536) SELECT `description` FROM `items` WHERE `name` LIKE 'FERRERO S.P.A.'
+ ~ (11.244861) SELECT `description` FROM `items` WHERE `name` LIKE 'FERRERO S.P.A.'
+ ~ (9.776545) SELECT `description` FROM `items` WHERE `name` LIKE 'FERRERO S.P.A.'
+ ~ (9.270072) SELECT `description` FROM `items` WHERE `name` LIKE 'FERRERO S.P.A.'
+ ~ (9.054193) SELECT `description` FROM `items` WHERE `name` LIKE 'FERRERO S.P.A.'
+ ~ (0.001889) SET sql_auto_is_null = 0
+ ~ (0.001911) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.046385) SELECT `guid`, `date`, `date_entered`, `quantity_num`, `quantity_denom`, `i_acct`, `i_price_num`, `i_price_denom`, `i_discount_num`, `i_discount_denom`, `invoice`, `i_taxable`, `i_taxincluded`, `i_taxtable`, `b_acct`, `b_price_num`, `b_price_denom`, `bill`, `b_taxable`, `b_taxincluded`, `b_taxtable`, `b_paytype`, `billable`, `billto_type`, `billto_guid`, `order_guid` FROM `entries` ORDER BY `date`
+ ~ (0.045910) SELECT `guid`, `description`, `action`, `notes`, `i_disc_type`, `i_disc_how` FROM `entries` ORDER BY `date`

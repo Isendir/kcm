@@ -1,0 +1,17 @@
+h1 Lista Articoli per Fornitore
+- @vendors.each do |vendor|
+  h2 #{vendor[:name]}
+  table.vendor_dt
+    thead
+    tr
+    th Articolo
+    th Costo
+    tbody
+      -  @items.each do |item|
+        <tr>
+
+        <td>#{item[:description]}</td>
+        <td>#{item[:costo]}</td>
+        </tr>
+
+
